@@ -26,6 +26,19 @@
     display: flex;
     flex-wrap: wrap;
 }
+.git-hub-link img{
+    transform: scale(.3,.3);
+}
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.project-tile img{
+    max-width: 400px;
+    height: auto;
+}
 @media (max-size:500px) {
     h1{
         font-size: medium;
