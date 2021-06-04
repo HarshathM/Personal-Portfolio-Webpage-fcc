@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 #welcome-section{
     height: 100vh;
@@ -20,6 +21,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
 }
 @media (max-size:500px) {
     h1{
