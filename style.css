@@ -22,22 +22,47 @@
     justify-content: center;
     flex-direction: column;
 }
+#welcome-section h1{
+    font-size: 100px;
+}
+.all-projects-with-h2{
+    background-color: burlywood;
+}
+.all-projects-with-h2 h2{
+    text-align: center;
+    padding: 60px 0 0 0;
+    text-decoration:overline underline;
+    font-size:xx-large;
+}
 #projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
 }
+
 .git-hub-link img{
     transform: scale(.3,.3);
+}
+#projects a{
+    margin: 40px 0px;
+    text-decoration: none;
+    border-style: inset;
+    border-radius: 2%;
 }
 .project-tile{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    background-color: violet;
 }
 .project-tile img{
+    width: 100%;
     max-width: 400px;
-    height: auto;
+    margin: auto;
+    height: 1
+}
+.project-tile p{
+    padding: 15px 0;
 }
 @media (max-size:500px) {
     h1{
