@@ -4,54 +4,53 @@
         <title>Personal Portfolio</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     </head>
     <body>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <nav id="navbar">
-            <a class="nav-link" href="#all-projects-with-h2">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
         </nav>
         <section id="welcome-section">
             <h1>Welcome</h1>
             <p>web developer</p>
         </section>
-        <div class="all-projects-with-h2" id="all-projects-with-h2">
-            <h2>My startup projects are here:</h2>
             <section id="projects">
-                <a href="https://harshathm.github.io/Tribute-Page-fcc/" target="_blank">
-                    <article class="project-tile">
-                        <img src="/tribute snap.png" alt="">
-                        <p>tribute page</p>
-                    </article>
-                </a>
-                <a href="https://harshathm.github.io/Survey-form-fcc/" target="_blank">
-                    <article class="project-tile">
-                        <img src="/survey snap.png" alt="">
-                        <p>survey form</p> 
-                    </article>
-                </a>
-                <a href="https://harshathm.github.io/Product-Landing-Page-fcc/" target="_blank">
-                    <article class="project-tile">
-                        <img src="/product snap.png" alt="">
-                        <p>Product landing page</p>
-                    </article>
-                </a>
-                <a href="https://harshathm.github.io/Tech-Doc-Page/" target="_blank">
-                    <article class="project-tile">
-                        <img src="/techdoc snap.png" alt="">
-                        <p>technical documentation page</p>
-                    </article>
-                </a>
-                <a href="https://harshathm.github.io/Personal-Portfolio-Webpage-fcc/" target="_blank">
-                    <article class="project-tile">
-                        <p>Personal Porfolio webpage</p> 
-                    </article>
-                </a>
+                <h2>My startup projects are here:</h2>
+                <ul class="grid-container">
+                    <li>
+                        <a class="project-tile" href="https://harshathm.github.io/Tribute-Page-fcc/" target="_blank">
+                            <img src="/tribute snap.png" alt="">
+                            <p>tribute page</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="project-tile" href="https://harshathm.github.io/Survey-form-fcc/" target="_blank">
+                            <img src="/survey snap.png" alt="">
+                            <p>survey form</p> 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="project-tile" href="https://harshathm.github.io/Product-Landing-Page-fcc/" target="_blank">
+                            <img src="/product snap.png" alt="">
+                            <p>Product landing page</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="project-tile" href="https://harshathm.github.io/Tech-Doc-Page/" target="_blank">
+                            <img src="/techdoc snap.png" alt="">
+                            <p>technical documentation page</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="project-tile" href="https://harshathm.github.io/Personal-Portfolio-Webpage-fcc/" target="_blank">
+                            <p>Personal Porfolio webpage</p> 
+                        </a>
+                    </li>
+                </ul>
             </section>
-        </div>
         <div class="git-hub-link">
-            <img src="http://pngimg.com/uploads/github/github_PNG90.png" alt="github png">
-            <a id="profile-link" href="https://github.com/HarshathM" target="_blank">Github</a>
-            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTAyLjY2NCA1MDIuNjY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDIuNjY0IDUwMi42NjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojMDEwMDAyOyIgZD0iTTE1My44MjEsMzU4LjIyNkwwLDI3NC4zMzd2LTQ2LjQ2M2wxNTMuODIxLTgzLjQxNHY1NC41NzRMNDYuNjM2LDI1MC41MjNsMTA3LjE4NSw1My40MzENCgkJCUMxNTMuODIxLDMwMy45NTQsMTUzLjgyMSwzNTguMjI2LDE1My44MjEsMzU4LjIyNnoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAxMDAwMjsiIGQ9Ik0xODAuMDk0LDM4Ny41ODRMMjgyLjEwMywxMTUuMDhoMzIuMjI3TDIxMi4wODQsMzg3LjU4NEgxODAuMDk0eiIvPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojMDEwMDAyOyIgZD0iTTM0OC44NDMsMzU4LjIyNnYtNTQuMjcybDEwNy4xNjQtNTIuOTk5bC0xMDcuMTY0LTUyLjU5di01My45MjdsMTUzLjgyMSw4My41MjJ2NDYuMTgzDQoJCQlMMzQ4Ljg0MywzNTguMjI2eiIvPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+            <i class="bi-github" role="img" aria-label="GitHub"></i>
         </div>
     </body>
 </html>
