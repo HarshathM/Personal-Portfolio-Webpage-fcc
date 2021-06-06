@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     text-decoration:none ;
+    color: black;
 }
 /*nav-bar*/
 #navbar{
@@ -25,13 +26,18 @@
 }
 .nav-link{
     color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.nav-link i{
+    padding-right: 5px;
 }
 @media (max-width:400px) {
     #navbar ul{
-        padding-right: 15px;
+        padding-right: 5px;
     }
     #navbar a{
-        padding: 15px 15px;
+        padding: 13px 10px;
     }
 }
 
@@ -49,13 +55,18 @@
 #welcome-section h1{
     font-size: 100px;
 }
+#welcome-section p{
+    font-size: 20px;
+}
 
 /*Projects-section*/
 
 #projects{
     background-color:burlywood;
+    padding-bottom: 30px;
 }
 #projects h2{
+    text-transform: capitalize;
     text-align: center;
     padding: 80px 0 20px 0;
     text-decoration-line: overline underline;
@@ -88,15 +99,7 @@
     color:cornsilk;
     padding: 10px 0;
 }
-.github-profile-btn{
-    display: block;
-    margin:auto;
-    width: fit-content;
-    padding: 10px 0 25px 0;
-}
-.github-link input{
-    padding: 10px ;
-}
+
 @media (max-width:500px) {
     h1{
         font-size: medium;
@@ -104,4 +107,45 @@
     .grid-container{
         grid-template-columns: 1fr ;
     }
+}
+
+/*Contact section*/
+
+.total-contact-section{
+    background-color:rgb(104, 167, 10);
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.total-contact-section h2{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.contact-section-description{
+    font-size: 20px;
+}
+.sep-contact-link{
+    display: flex;
+    font-size: 30px;
+    margin: 20px 20px 0px 20px;
+}
+.contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+.contact-links i{
+    padding-right: 5px;
+}
+footer{
+    height: 4vh;
+    background-color: grey;
+    text-align: center;
+    font-weight: bolder;
+}
+@media (max-width:) {
+    
 }
