@@ -40,7 +40,7 @@
 .nav-link i{
     padding-right: 5px;
 }
-@media (max-width:400px) {
+@media (max-width:420px) {
     #navbar ul{
         padding-right: 5px;
     }
@@ -145,8 +145,9 @@
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
+    
 }
-.total-contact-section h2 div{
+.total-contact-section h2 *{
     font-family: 'Do Hyeon', sans-serif;
     color: whitesmoke;
 }
@@ -179,7 +180,4 @@ footer{
     text-align: center;
     font-weight: bolder;
     color: white;
-}
-@media (max-width:) {
-    
 }
