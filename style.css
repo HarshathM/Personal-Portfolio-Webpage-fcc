@@ -85,7 +85,7 @@
     background: #3CA55C;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 31px;
+    padding-bottom: 30px;
 }
 #projects h2{
     text-transform: capitalize;
@@ -93,7 +93,7 @@
     padding: 80px 0 20px 0;
     text-decoration-line: overline underline;
     font-family: 'Merienda', cursive;
-    color: white;
+    color:white;
 }
 .project-tile{
     text-decoration: none;
