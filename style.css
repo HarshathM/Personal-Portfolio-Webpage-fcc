@@ -1,13 +1,21 @@
+:root{
+    --main-primary:#1c1c72;
+    --main-text:white;
+    --sub-analogous:#0000ff;
+}
 *{
     margin: 0px;
     text-decoration:none ;
     color: black;
+    box-sizing:border-box;
 }
 /*nav-bar*/
 #navbar{
     position: fixed;
     width: 100%;
-    background-color: blue;
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: flex-end;
 }
@@ -19,13 +27,13 @@
 #navbar a{
     padding: 20px 20px;
     display: block;
+    color:white;
 }
 #navbar a:hover{
     background-color:white;
-    color:blue;
+    color:black;
 }
 .nav-link{
-    color: white;
     font-size: 20px;
     white-space: nowrap;
 }
@@ -46,23 +54,31 @@
 #welcome-section{
     height: 100vh;
     width: 100%;
-    background-color:aqua;
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#welcome-section h1{
-    font-size: 100px;
+#welcome-section h1 *{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Russo One', sans-serif;
 }
 #welcome-section p{
     font-size: 20px;
+    text-transform: capitalize;
+    color:yellow;
 }
 
 /*Projects-section*/
 
 #projects{
-    background-color:burlywood;
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 30px;
 }
 #projects h2{
@@ -70,6 +86,8 @@
     text-align: center;
     padding: 80px 0 20px 0;
     text-decoration-line: overline underline;
+    font-family: 'Merienda', cursive;
+
 }
 .project-tile{
     text-decoration: none;
@@ -79,9 +97,9 @@
     padding: 0;
 }
 #projects li{
+    text-transform: capitalize;
     border:groove;
     border-radius: 3%;
-    background-color:black;
 }
 .grid-container{
     display: grid;
@@ -98,6 +116,10 @@
     text-align: center;
     color:cornsilk;
     padding: 10px 0;
+    font-family: 'Mate SC', serif;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media (max-width:500px) {
@@ -122,9 +144,17 @@
 .total-contact-section h2{
     text-transform: capitalize;
     font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.total-contact-section h2 div{
+    font-family: 'Do Hyeon', sans-serif;
+    color: whitesmoke;
 }
 .contact-section-description{
     font-size: 20px;
+    color: yellow;
+    text-transform: capitalize;
 }
 .sep-contact-link{
     display: flex;
@@ -136,15 +166,20 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-transform: capitalize;
+    font-family: 'Mate SC', serif;
+    font-weight: 600;
 }
 .contact-links i{
     padding-right: 5px;
 }
 footer{
     height: 4vh;
-    background-color: grey;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     font-weight: bolder;
+    color: white;
 }
 @media (max-width:) {
     
